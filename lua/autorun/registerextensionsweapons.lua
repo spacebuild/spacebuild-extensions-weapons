@@ -17,6 +17,7 @@
 AddCSLuaFile()
 local function initTools(SB)
     if not SB then SB = SPACEBUILD end
+    if not SB then print("Could not register spacebuild weapons\n") return end
     SB:registerExtensionsWeapons()
 end
 if SPACEBUILD then
