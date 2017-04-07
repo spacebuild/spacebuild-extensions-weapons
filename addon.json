@@ -1,0 +1,17 @@
+{
+	"title"		:	"Spacebuild extensions - weapon models",
+	"type"		:	"model",
+	"tags"		:	[ "build", "fun" ],
+	"description":	"Spacebuild extensions - weapon models and materials",
+	"ignore"	:
+	[
+		"*.txt",
+		".git*",
+		"*.iml",
+		"*.ipr",
+		"LICENSE",
+		"NOTICE",
+		"*.md",
+		"*.jpg"
+	]
+}
